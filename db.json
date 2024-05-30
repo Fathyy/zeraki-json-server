@@ -1,0 +1,308 @@
+{
+    "signup": [
+      {
+        "id": "1",
+        "name": "Zeraki Analytics",
+        "Goal": 100,
+        "Actual": 50
+      },
+      {
+        "id": "2",
+        "name": "Zeraki Finance",
+        "Goal": 50,
+        "Actual": 80
+      },
+      {
+        "id": "3",
+        "name": "Zeraki Timetable",
+        "Goal": 100,
+        "Actual": 50
+      }
+    ],
+    "SignupBar": [
+      {
+        "id": "1",
+        "Primary": 30,
+        "Secondary": 40,
+        "IGCSE": 60
+      },
+      {
+        "id": "2",
+        "Primary": 100,
+        "Secondary": 50,
+        "IGCSE": 20
+      },
+      {
+        "id": "3",
+        "Primary": 70,
+        "Secondary": 100,
+        "IGCSE": 40
+      }
+    ],
+    "schools": [
+      {
+        "id": "1",
+        "name": "Maplewood Academy"
+      },
+      {
+        "id": "2",
+        "name": "Riverside High School"
+      },
+      {
+        "id": "3",
+        "name": "Evergreen Institute"
+      },
+      {
+        "id": "4",
+        "name": "Cedar Valley College"
+      },
+      {
+        "id": "5",
+        "name": "Pine Hill Elementary"
+      },
+      {
+        "id": "6",
+        "name": "Summit Preparatory School"
+      }
+    ],
+    "schoolsDetails": [
+      {
+        "id": "1",
+        "name": "Maplewood Academy",
+        "type": "Secondary",
+        "product": "Finance",
+        "county": "Nairobi",
+        "registration_date": "2021-08-15",
+        "contact_info": {
+          "email": "info@maplewoodacademy.edu",
+          "phone": "555-1234"
+        },
+        "school_balance": 1500.75,
+        "invoices": [
+          {
+            "invoice_number": "INV-001",
+            "item": "Finance",
+            "creation_date": "2023-01-15",
+            "due_date": "2023-02-15",
+            "amount": 500,
+            "paid_amount": 200,
+            "balance": 300,
+            "status": "Pending"
+          },
+          {
+            "invoice_number": "INV-002",
+            "item": "Analytics",
+            "creation_date": "2023-03-01",
+            "due_date": "2023-04-01",
+            "amount": 1000,
+            "paid_amount": 1000,
+            "balance": 0,
+            "status": "Completed"
+          }
+        ],
+        "collections": [
+          {
+            "invoice_number": "INV-001",
+            "collection_number": "COL-001",
+            "date_of_collection": "2023-03-15",
+            "status": "Valid",
+            "amount": 500
+          },
+          {
+            "invoice_number": "INV-002",
+            "collection_number": "COL-002",
+            "date_of_collection": "2023-03-20",
+            "status": "Bounced",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Riverside High School",
+        "type": "Secondary",
+        "product": "Analytics",
+        "county": "Kisumu",
+        "registration_date": "2019-06-12",
+        "contact_info": {
+          "email": "contact@riversidehigh.edu",
+          "phone": "555-5678"
+        },
+        "school_balance": 2500,
+        "invoices": [
+          {
+            "invoice_number": "INV-003",
+            "item": "Timetable",
+            "creation_date": "2023-02-09",
+            "due_date": "2023-04-01",
+            "amount": 750,
+            "paid_amount": 500,
+            "balance": 250,
+            "status": "Pending"
+          },
+          {
+            "invoice_number": "INV-993",
+            "item": "Finance",
+            "creation_date": "2024-03-15",
+            "due_date": "2024-04-16",
+            "amount": 3500,
+            "paid_amount": 699,
+            "status": "Completed",
+            "balance": 2801
+          }
+        ],
+        "collections": [
+          {
+            "invoice_number": "INV-003",
+            "collection_number": "COL-004",
+            "date_of_collection": "2023-03-15",
+            "status": "Bounced",
+            "amount": 500
+          },
+          {
+            "invoice_number": "INV-993",
+            "collection_number": "COL-006",
+            "date_of_collection": "2023-03-20",
+            "status": "Valid",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Evergreen Institute",
+        "type": "IGCSE",
+        "product": "Timetable",
+        "county": "Mombasa",
+        "registration_date": "2020-09-23",
+        "contact_info": {
+          "email": "admin@evergreeninstitute.edu",
+          "phone": "555-8765"
+        },
+        "school_balance": 1800.5,
+        "invoices": [
+          {
+            "invoice_number": "INV-043",
+            "item": "Finance",
+            "creation_date": "2023-02-10",
+            "due_date": "2023-03-10",
+            "amount": 750,
+            "paid_amount": 500,
+            "balance": 250,
+            "status": "Pending"
+          }
+        ],
+        "collections": [
+          {
+            "invoice_number": "INV-043",
+            "collection_number": "COL-010",
+            "date_of_collection": "2023-03-15",
+            "status": "Bounced",
+            "amount": 500
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Cedar Valley College",
+        "type": "Secondary",
+        "product": "Finance",
+        "county": "Taveta",
+        "registration_date": "2018-04-30",
+        "contact_info": {
+          "email": "support@cedarvalleycollege.edu",
+          "phone": "555-4321"
+        },
+        "school_balance": 3000,
+        "invoices": [
+          {
+            "invoice_number": "INV-021",
+            "item": "Finance",
+            "creation_date": "2023-02-10",
+            "due_date": "2023-03-10",
+            "amount": 750,
+            "paid_amount": 500,
+            "balance": 250,
+            "status": "Pending"
+          }
+        ],
+        "collections": [
+          {
+            "invoice_number": "INV-021",
+            "collection_number": "COL-015",
+            "date_of_collection": "2023-03-15",
+            "status": "Bounced",
+            "amount": 500
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Pine Hill Elementary",
+        "type": "Primary",
+        "product": "Analytics",
+        "county": "Kericho",
+        "registration_date": "2022-01-05",
+        "contact_info": {
+          "email": "info@pinehillelementary.edu",
+          "phone": "555-6789"
+        },
+        "school_balance": 1200.25,
+        "invoices": [
+          {
+            "invoice_number": "INV-021",
+            "item": "Analytics",
+            "creation_date": "2023-02-10",
+            "due_date": "2023-03-10",
+            "amount": 750,
+            "paid_amount": 500,
+            "balance": 250,
+            "status": "Pending"
+          }
+        ],
+        "collections": [
+          {
+            "invoice_number": "INV-021",
+            "collection_number": "COL-045",
+            "date_of_collection": "2023-03-15",
+            "status": "Bounced",
+            "amount": 500
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Summit Preparatory School",
+        "type": "IGCSE",
+        "product": "Timetable",
+        "county": "Garissa",
+        "registration_date": "2020-03-14",
+        "contact_info": {
+          "email": "contact@summitprep.edu",
+          "phone": "555-3456"
+        },
+        "school_balance": 2750.4,
+        "invoices": [
+          {
+            "invoice_number": "INV-150",
+            "item": "Timetable",
+            "creation_date": "2023-02-10",
+            "due_date": "2023-03-10",
+            "amount": 750,
+            "paid_amount": 500,
+            "balance": 250,
+            "status": "Pending"
+          }
+        ],
+        "collections": [
+          {
+            "invoice_number": "INV-150",
+            "collection_number": "COL-035",
+            "date_of_collection": "2023-03-15",
+            "status": "Bounced",
+            "amount": 500
+          }
+        ]
+      }
+    ]
+  }
